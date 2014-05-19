@@ -14,13 +14,13 @@
 		3C9F04CC192A8C68002E2118 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9F04CB192A8C68002E2118 /* main.m */; };
 		3C9F04D0192A8C68002E2118 /* OWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9F04CF192A8C68002E2118 /* OWAppDelegate.m */; };
 		3C9F04D3192A8C68002E2118 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C9F04D1192A8C68002E2118 /* Main.storyboard */; };
-		3C9F04D6192A8C68002E2118 /* OWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9F04D5192A8C68002E2118 /* OWViewController.m */; };
 		3C9F04D8192A8C68002E2118 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C9F04D7192A8C68002E2118 /* Images.xcassets */; };
 		3C9F04DF192A8C68002E2118 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9F04DE192A8C68002E2118 /* XCTest.framework */; };
 		3C9F04E0192A8C68002E2118 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9F04BF192A8C68002E2118 /* Foundation.framework */; };
 		3C9F04E1192A8C68002E2118 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9F04C3192A8C68002E2118 /* UIKit.framework */; };
 		3C9F04E9192A8C68002E2118 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C9F04E7192A8C68002E2118 /* InfoPlist.strings */; };
 		3C9F04EB192A8C68002E2118 /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9F04EA192A8C68002E2118 /* UITableViewController_Challenge_SolutionTests.m */; };
+		3C9F04F6192A8D3F002E2118 /* OWTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9F04F5192A8D3F002E2118 /* OWTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		3C9F04CE192A8C68002E2118 /* OWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OWAppDelegate.h; sourceTree = "<group>"; };
 		3C9F04CF192A8C68002E2118 /* OWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OWAppDelegate.m; sourceTree = "<group>"; };
 		3C9F04D2192A8C68002E2118 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3C9F04D4192A8C68002E2118 /* OWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OWViewController.h; sourceTree = "<group>"; };
-		3C9F04D5192A8C68002E2118 /* OWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OWViewController.m; sourceTree = "<group>"; };
 		3C9F04D7192A8C68002E2118 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3C9F04DD192A8C68002E2118 /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C9F04DE192A8C68002E2118 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3C9F04E6192A8C68002E2118 /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		3C9F04E8192A8C68002E2118 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3C9F04EA192A8C68002E2118 /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		3C9F04F4192A8D3F002E2118 /* OWTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWTableViewController.h; sourceTree = "<group>"; };
+		3C9F04F5192A8D3F002E2118 /* OWTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				3C9F04CE192A8C68002E2118 /* OWAppDelegate.h */,
 				3C9F04CF192A8C68002E2118 /* OWAppDelegate.m */,
 				3C9F04D1192A8C68002E2118 /* Main.storyboard */,
-				3C9F04D4192A8C68002E2118 /* OWViewController.h */,
-				3C9F04D5192A8C68002E2118 /* OWViewController.m */,
+				3C9F04F4192A8D3F002E2118 /* OWTableViewController.h */,
+				3C9F04F5192A8D3F002E2118 /* OWTableViewController.m */,
 				3C9F04D7192A8C68002E2118 /* Images.xcassets */,
 				3C9F04C6192A8C68002E2118 /* Supporting Files */,
 			);
@@ -250,8 +250,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C9F04F6192A8D3F002E2118 /* OWTableViewController.m in Sources */,
 				3C9F04D0192A8C68002E2118 /* OWAppDelegate.m in Sources */,
-				3C9F04D6192A8C68002E2118 /* OWViewController.m in Sources */,
 				3C9F04CC192A8C68002E2118 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
